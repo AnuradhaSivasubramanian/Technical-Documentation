@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  flex-direction: row;
+}
+.main_header {
+  width: 15%;
+}
+.main_doc {
+  width: 85%;
+  padding: 5%;
+
+  font-family: "Simonetta";
+  font-size: 1.5em;
+}
+.nav-bar-container {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  position: fixed;
+  font-family: "Anton";
+  font-size: 1em;
+}
+
+.nav-bar-container a {
+  border-bottom: 3px solid black;
+  height: 3vw;
+  padding-top: 10px;
+}
+.nav-bar-container a:link {
+  text-decoration: none;
+  color: black;
+}
+.nav-bar-container a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-bar-container a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.nav-bar-container a:active {
+  text-decoration: underline;
+  color: black;
+}
+.main_doc header {
+  font-family: "Anton";
+  font-size: 2em;
+}
+.trinity {
+  margin-left: 25vw;
+  border-radius: 5px;
+}
+.veena {
+  width: 5vw;
+  height: 4vw;
+  margin-left: 30vw;
+}
+.footer {
+  margin-top: 10%;
+  background-color: rgba(8, 0, 0, 0.4);
+  padding: 10px;
+  margin-bottom: 0px;
+}
