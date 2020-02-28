@@ -63,3 +63,27 @@ body {
   padding: 10px;
   margin-bottom: 0px;
 }
+@media only screen and (max-width: 500px) {
+  .nav-bar-container {
+    font-size: 0.5em;
+    padding: 0;
+  }
+  .nav-bar-container a {
+    border: none;
+  }
+  .main_doc {
+    width: 65%;
+    padding: 2px;
+    font-size: 1em;
+  }
+  .main_header {
+    width: 40%;
+    margin: 2px;
+  }
+  .trinity {
+    border-radius: 5px;
+    width: 90px;
+    height: 70px;
+    margin-left: 0px;
+  }
+}
